@@ -35,6 +35,7 @@
 ## Quick Start
 
 ```bash
+cd ~
 rm -rf FB-EC2-Creator-Tool
 git clone --depth=1 https://github.com/anythingpaid/FB-EC2-Creator-Tool.git
 cd FB-EC2-Creator-Tool
