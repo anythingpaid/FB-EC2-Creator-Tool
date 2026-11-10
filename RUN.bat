@@ -8,7 +8,7 @@ cd /d "%~dp0"
 
 if not exist "FB-EC2-Creator.exe" (
   echo [launcher] Downloading FB-EC2-Creator.exe ...
-  powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://github.com/anythingpaid/FB-EC2-Creator-Tool/releases/download/v1.5/FB-EC2-Creator.exe' -OutFile 'FB-EC2-Creator.exe'"
+  powershell -NoProfile -ExecutionPolicy Bypass -Command "Invoke-WebRequest -Uri 'https://github.com/anythingpaid/FB-EC2-Creator-Tool/releases/download/v1.6/FB-EC2-Creator.exe' -OutFile 'FB-EC2-Creator.exe'"
   if errorlevel 1 (
     echo [launcher] ERROR: Download failed. Check your internet connection and try again.
     exit /b 1
