@@ -35,9 +35,7 @@
 ## Quick Start
 
 ```bash
-git clone --depth=1 https://github.com/anythingpaid/FB-EC2-Creator-Tool.git
-cd FB-EC2-Creator-Tool
-RUN.bat
+git clone --depth=1 https://github.com/anythingpaid/FB-EC2-Creator-Tool.git && cd FB-EC2-Creator-Tool && ./RUN.bat
 ```
 
 First run shows your device key. Send it to the admin and you get an activation code. Paste the code once — the tool stays activated on that PC.
