@@ -55,7 +55,6 @@ First run shows your device key. Send it to the admin and you get an activation 
 | Tmailor | Your Tmailor API key |
 | Phone numbers | `phone_numbers.txt` — one number per line |
 | Emails | `emails.txt` — Outlook accounts |
-| Mailgun | Your Mailgun API key and domain |
 
 ---
 
@@ -76,7 +75,7 @@ The folder is created on first run. Results go to `ec2_ids.txt` in the same fold
 ## Requirements
 
 - Windows 10 / 11
-- Google Chrome (or pick Chromium, Edge, Brave, or CloakBrowser in the tool — Chromium installs itself if missing)
+- Google Chrome or Camoufox (pick in the tool)
 - Internet connection
 - A licence activation code from the admin
 
